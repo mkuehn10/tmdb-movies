@@ -1,6 +1,7 @@
 setwd("F:/Dropbox/Professional Portfolio/Projects/tmdb-movies")
 
 tmdb_movies <- read.csv("tmdb-movies.csv")
+#tmdb_movies <- read.csv("tmdb_5000_movies.csv")
 
 head(tmdb_movies)
 summary(tmdb_movies)
