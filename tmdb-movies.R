@@ -23,3 +23,5 @@ d <- melt(tmdb_movies[sapply(tmdb_movies, is.numeric)])
 ggplot(d, aes(x = value)) +
   facet_wrap(~variable, scales = "free_x") +
   geom_histogram()
+
+plot(tmdb_movies$popularity, tmdb_movies$revenue)
